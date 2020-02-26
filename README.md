@@ -18,7 +18,7 @@
 4.  [Create a second generation Google Cloud SQL instance](
     https://cloud.google.com/sql/docs/postgres/create-instance).
 
-6.  Under the instance's "USERS" tab, create a new user. Note the "User name" and "Password".
+6.  Under the instance's "USERS" tab, create a new user. Note the "User name = postgres" and "root".
 
 7.  Create a new database in your Google Cloud SQL instance.
     
@@ -31,7 +31,7 @@
 
     4.  Click **Create database**.
 
-    2.  For **Database name**, enter `votes`.
+    2.  For **Database name**, enter `test`.
 
     3.  Click **CREATE**.
 
