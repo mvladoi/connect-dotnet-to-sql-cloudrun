@@ -47,11 +47,11 @@
         
 11. Deploy the service to Cloud Run        
      
-       gcloud run deploy run-mysql --image gcr.io/[PROJECT_ID]/quickstart-image
+        gcloud run deploy run-mysql --image gcr.io/[PROJECT_ID]/quickstart-image
         
 12. Configure the service for use of Cloud Run and Cloud SQL proxi
  
-           gcloud run services update run-mysql --add-cloudsql-instances INSTANCE CONNECTION NAME
+         gcloud run services update run-mysql --add-cloudsql-instances INSTANCE CONNECTION NAME
        
            
     
