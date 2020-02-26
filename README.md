@@ -51,7 +51,7 @@
         
 12. Configure the service for use of Cloud Run and Cloud SQL proxi
  
-         gcloud run services update run-mysql --add-cloudsql-instances INSTANCE CONNECTION NAME
+        gcloud run services update run-mysql --add-cloudsql-instances INSTANCE CONNECTION NAME
        
            
     
